@@ -1,5 +1,5 @@
 import { createFeature, createReducer, on } from "@ngrx/store";
-import { User } from "../../admin/model/model";
+import { User } from "../../admin/model/user.model";
 import { IdentityActions } from "./identity.actions";
 import { getInitialState, SimpleXhrState, XhrStatus } from "../xhr.model";
 

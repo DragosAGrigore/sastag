@@ -1,5 +1,6 @@
 import { createActionGroup, emptyProps, props } from "@ngrx/store";
-import { User, UserCredentials } from "../../admin/model/model";
+import { UserCredentials } from "../../admin/model/user-credentials.model";
+import { User } from "../../admin/model/user.model";
 
 export const IdentityActions = createActionGroup({
   source: 'Identity',
